@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>T AND J SERVICE CENTER</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header class= "header">
+        <div class="container top">
+            <div class="logo">
+                <h2>T AND J</h2>
+            </div>
+            <div class="nav">
+                <ul>
+                    <li><a href="#" class="active">home</a></li>
+                    <li><a href="#about">about us</a></li>
+                    <li><a href="#services">services</a></li>
+                    <li><a href="#contact">contact us</a></li>
+                </ul>
+            </div>
+        </div>
+    </header>
+    <main class="bg-image">
+        <div class="main ">
+            <div class="main-inner">
+                <h1>t and j service centre</h1>
+            </div>
+            <div class="main-outer">
+                <h2>Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Laborum voluptatibus quas voluptatem dolorem libero, 
+                   sapiente fuga culpa hic voluptates odit!
+                </h2>
+            </div>
+        
+        </div>
+    </main>
+    <section class="abt" id="about">
+            <h2>about us</h2>
+        <div class="container section1">
+        <div class="content">
+            <div class="content-inner">
+                <p>
+                   Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque dolor 
+                   magnam amet perspiciatis cupiditate quia minus qui non eum incidunt, dicta soluta ducimus?
+                    Amet ex cupiditate nihil nobis nisi? Adipisci a ipsam dolores magnam rem pariatur odit ratione 
+                    voluptatibus fugit laboriosam ullam, voluptatum maiores nostrum illo,
+                    veritatis, nesciunt minima suscipit nemo! Neque praesentium repudiandae numquam a quae ut illum incidunt!
+                </p><br>
+                <p >Lorem ipsum dolor, sit amet consectetur adipisicing elit. Pariatur, officia molestias excepturi 
+                    dolore aut perspiciatis explicabo est voluptatum aperiam eius eum ut esse nostrum enim incidunt odio? Quasi consequatur a
+                    lias rerum quis doloremque fugit incidunt, non perspiciatis nesciunt perferendis 
+                    molestiae.
+                </p>
+            </div>
+            <div class="image">
+                <img src="images/pic-1.png" alt="image1">
+            </div>
+        </div>
+              <div class="content1">
+                <div class="image1">
+                    <img src="images/pic-2.png" alt="technical know who">
+                </div>
+                <div class="image1">
+                    <img src="images/pic-5.png" alt="how we work">
+                </div>
+        
+            <div>
+                <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus est necessitatibus iusto dignissimos provident tempore, temporibus vel animi, adipisci fugiat omnis 
+                    voluptatem inventore quae. Minus at quisquam architecto veritatis illum! Lorem ipsum dolor sit, amet consectetur adipisicing elit. Suscipit fugit tempora est. Repellendus quisquam consectetur ipsa aliquam omnis placeat,
+                     consequatur voluptates facere officiis delectus culpa, laborum fugiat excepturi! Dolore, non!
+                </p>
+            </div>
+           
+        </div>
+      </div>
+    </section>
+    <section class="services" id="services">
+        <h2>see our works</h2>
+      <div class="container">
+        <div class="content-grid gallery">
+           <div><a href=""><img src="images/img-11.png"alt=""></a></div>
+           <div><a href=""><img src="images/img-2.png" alt=""></a></div>
+           <div><a href=""><img src="images/img-3.png" alt=""></a></div>
+           <div><a href=""><img src="images/pic-4.png" alt=""></a></div>
+           <div><a href=""><img src="images/img-5.png" alt=""></a></div>
+           <div><a href=""><img src="images/img-4.png" alt=""></a></div> 
+        </div>
+    </div>
+    </section>
+    <section class="contact " id="contact">
+        <h2>Message us</h2>
+        <div class="exterior">
+        <div class="chat">
+            <form method="post" data-netlify="true" >
+                <div>
+                    <label for="name">NAME</label><br>
+                    <input type="text" name="name " id="" placeholder="Enter Name" maxlength="30" required><br>
+                </div>
+                <div>
+                    <label for="email">EMAIL</label><br>
+                    <input type="email" name="name " id="" placeholder="Enter Email" required/><br>
+                </div>
+                <div>
+                    <label for="Message">MESSAGE</label><br>
+                    <textarea name="message" id="" cols="70" rows="10" placeholder="Enter message" required></textarea>
+                </div>
+                <div>
+                    <input type="submit" value="SUBMIT" id="submit">
+                </div>
+            
+            </form>
+        </div>
+    </div>
+    </section>
+    <footer class="outer">
+        <div class="footer">
+            <div >
+                <h3>Copyright &copy; 2020 by kalenzo</h3>
+            </div>
+            <div class="footer-nav"  >
+                <ul>
+                    </li><img src="images/twitter.png" alt="twitter image"></li>
+                    </li><img src="images/facebook.jpg" alt="facebook image"></li>
+                    </li><img src="images/whatsapp.jpg" alt="whatsapp image"></li>
+                    </li><img src="images/download.png" alt="linkedin image"></li>
+                     </li><img src="images/googleplus.jpg" alt="google plus image"></li>
+                    </ul>
+            </div>
+        </div>
+    </footer>
+    <script>
+        let a = document.querySelector("#submit")
+        a.addEventListener("onclick",listen)
+        function listen(e){
+            e.preventDefault()
+        }
+
+    </script>
+</body>
+</html>
