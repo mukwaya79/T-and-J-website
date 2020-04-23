@@ -4,6 +4,6 @@
 
 my very first website , i was building it for  afriend
 
-sorry for much colors , but its built with modern html and css 
-
-i.e flex box and css grid. Hope to improve next time
+Highly shows services and products of T and J Company. 
+It was built and designed with HTML, CSS and JavaScript. 
+It’s very responsive and it scales well different devices like computers and mobile phones.
